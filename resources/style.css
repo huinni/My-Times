@@ -63,10 +63,6 @@ a  {
 
 }
 
-div {
-
-}
-
 .column   {
 
   display: flex;
@@ -186,7 +182,7 @@ h3  {
   text-align: center;
   font-size: 16px;
   font-weight: bold;
-  display: bold;
+  display: block;
 }
 
 footer    {
@@ -198,6 +194,7 @@ footer    {
   flex-direction: column;
   justify-content: center;
   height: 300px;
+  width: auto;
 }
 
 .link2   {
@@ -217,4 +214,8 @@ footer    {
 }
 .copyr  {
   text-align: center;
+}
+.vertical   {
+
+  border-right: 3px solid white;
 }
