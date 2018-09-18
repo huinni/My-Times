@@ -196,7 +196,8 @@ footer    {
   font-size: 12px;
   display: flex;
   flex-direction: column;
-  text-align: center;
+  justify-content: center;
+  height: 300px;
 }
 
 .link2   {
@@ -213,4 +214,7 @@ footer    {
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+.copyr  {
+  text-align: center;
 }
